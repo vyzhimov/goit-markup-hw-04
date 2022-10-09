@@ -10,6 +10,7 @@
   --team-background-color: #f5f4fa;
   --btn-hover-color: #188ce8;
   --border-header-color: #ececec;
+  --border-portfolio-card-color: #eeeeee;
   --icon-team-clients-color: #afb1b8;
   --default-lh: 1.14; /*16px*/
   --default-section-padding: 94px;
@@ -470,9 +471,9 @@ body {
 
 .portfolio-sublist-wrapper {
   padding: 20px 24px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border-right: 1px solid var(--border-portfolio-card-color);
+  border-bottom: 1px solid var(--border-portfolio-card-color);
+  border-left: 1px solid var(--border-portfolio-card-color);
 }
 
 .portfolio-subtitle {
